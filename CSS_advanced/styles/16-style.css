@@ -25,8 +25,10 @@
     --section-title-margin: 0;
     --section-title-color: var(--color-black);
 }   
-
-  html{
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+html{
     scroll-behavior: smooth;
     font-size: 62.5%;
 }  
@@ -90,4 +92,10 @@
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
 
+  }
+  
+  .container{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
   }
