@@ -53,6 +53,7 @@
     --header-logo-link-position: absolute;
     --header-logo-link-top: -1rem;
     --header-logo-link-left: 0;
+    --nav-item-link-hover: var(--color-white);
 } 
 
 
@@ -237,7 +238,7 @@ html{
     color: var(--nav-item-link-hover);
   }
 
-  .nav .nav-link:before{
+  .nav .nav-link::before{
     content: "";
     position: absolute;
     top: 0;
